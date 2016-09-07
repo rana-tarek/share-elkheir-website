@@ -1,0 +1,238 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E4E4E4;
+}
+
+#map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.circletag {
+    border-radius: 50% 50% 50% 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-dialog {
+    margin-top: 150px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-body {
+    padding-bottom: 50px;
+}
+
+.progress {
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.modal-dialog {
+    width: 350px;
+}
+
+.time {
+    text-align: center;
+    color: rgb(154, 157, 159);
+    font-size: 14px;
+}
+
+.area {
+    text-align: center;
+    color: rgb(248, 146, 0);
+    font-size: 16px;
+}
+
+.label-bar {
+    color: rgb(154, 154, 154);
+}
+
+#name {
+    text-transform: uppercase;
+}
+
+nav {
+    background: center right #C10018 no-repeat;
+    top: 0;
+    left: 0;
+    height: 60px;
+    right: 0;
+    line-height: 40px;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul li {
+    float: right;
+    text-align: center;
+    margin: 0 0 0 10px;
+    width: 40%;
+}
+
+nav ul li a {
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    color: #eee;
+    display: block;
+    line-height: 5px;
+    padding: 20px 0;
+    height: 40px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.sub-nav {
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    top: 60px;
+    left: 0;
+    height: 60px;
+    right: 0;
+    line-height: 34px;
+    position: fixed;
+    padding: 10px;
+    z-index: 999;
+}
+
+.google {
+    background: url(../images/google.jpg) center center no-repeat #000;
+    background-size: 90%;
+    border: none;
+}
+
+.google:hover,
+.apple:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.apple {
+    background: url(../images/apple.jpg) center center no-repeat #f8f8f8;
+    background-size: 90%;
+    border: none;
+}
+
+.title {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+.powerd {
+    background: url(../images/powerd.png) bottom left no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    display: block;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    width: 150px;
+    z-index: 999;
+}
+
+.labels li {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+.labels li img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.labels li span {
+    font-size: 16px;
+}
+.onoffswitch {
+    position: relative; width: 60px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 30px; padding: 0; line-height: 30px;
+    border: 2px solid #CCCCCC; border-radius: 30px;
+    background-color: #2C292C;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 30px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 28px;
+    border: 2px solid #CCCCCC; border-radius: 30px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #CF001B;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #CF001B;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+
+#access{
+    display: none;
+}
+#contribution{
+    display: block;
+}
+.fill {
+    top: 122px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
